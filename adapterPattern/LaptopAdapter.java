@@ -9,6 +9,6 @@ public class LaptopAdapter implements PowerOutlet {
 
     @Override
     public String plugIn() {
-        return laptop.chargeOn();
+        return laptop.charge();
     }
 }
