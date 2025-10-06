@@ -1,7 +1,7 @@
 package adapterPattern;
 
 public class Laptop {
-    public String chargeOn() {
+    public String charge() {
         return "Laptop is charging!";
     }
 }
