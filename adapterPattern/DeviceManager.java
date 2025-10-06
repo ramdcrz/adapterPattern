@@ -3,19 +3,19 @@ package adapterPattern;
 public class DeviceManager {
     public static void main(String[] args) {
         Laptop laptop = new Laptop();
-        PowerOutlet laptopFunction = new LaptopAdapter(laptop);
+        PowerOutlet laptopAdapter = new LaptopAdapter(laptop);
 
         Refrigerator refrigerator = new Refrigerator();
-        PowerOutlet refFunction = new RefrigeratorAdapter(refrigerator);
+        PowerOutlet refrigeratorAdapter = new RefrigeratorAdapter(refrigerator);
 
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
-        PowerOutlet chargerFunction = new SmartphoneAdapter(smartphoneCharger);
+        PowerOutlet smartphoneAdapter = new SmartphoneAdapter(smartphoneCharger);
 
         // Plug in the outlet
         System.out.println("Plugging in devices:");
-        System.out.println(laptopFunction.plugIn());
-        System.out.println(refFunction.plugIn());
-        System.out.println(chargerFunction.plugIn());
+        System.out.println(laptopAdapter.plugIn());
+        System.out.println(refrigeratorAdapter.plugIn());
+        System.out.println(smartphoneAdapter.plugIn());
 
         System.out.println();
     }
