@@ -20,3 +20,6 @@ You are developing an application that helps users manage and control various el
   <li>RefrigeratorAdapter - An adapter for plugging a refrigerator into a standard power outlet. It adapts the Refrigerator to the PowerOutlet interface, translating plugIn() to startCooling().</li>
   <li>SmartphoneAdapter - An adapter for plugging a smartphone charger into a standard power outlet. It adapts the SmartphoneCharger to the PowerOutlet interface, translating plugIn() to chargePhone().</li>
 </ul>
+
+## UML Diagram
+![alt text](https://github.com/ramdcrz/adapterPattern/blob/main/adapterPattern_UML.png?raw=true)
